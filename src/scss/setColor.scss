@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+$PersonalColor1:#ff6262;
+$PersonalColor2:#ffa947;
+
+$WorkColor1:#5b9df9;
+$WorkColor2:#47bfff;
+
+$HomeColor1:#2c7d59;
+$HomeColor2:#3ba776;
+
+
+@function setBgColor($direction,$color1,$color2){
+    @return linear-gradient($direction,$color1,$color2)
+}
